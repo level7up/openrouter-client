@@ -1,0 +1,22 @@
+{
+  "name": "level7up/openrouter-client",
+  "description": "OpenRouter API client for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "OpenRouter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Level7up\\OpenRouter\\OpenRouterServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0|^8.0"
+  }
+}
